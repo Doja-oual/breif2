@@ -55,74 +55,87 @@
     <!-- main -->
 
     <main>
-        <section class="main-section">
-            <div class="main-title">
-              <h1>Easy way to find your ideal home</h1>
+        <section class="hero">
+            <div class="hero-title">
+              <h1>Easy way to find a perfect property</h1>
             </div>
-            <div class="main-description">
+            <div class="hero-text">
               <p>
-                We offer a full service for buying, selling, or renting homes.
+                We provide a complete service for the sale, purchase or rental of
+                real estate.
               </p>
             </div>
-            <div class="search-section">
-              <div class="service-options">
+            <div class="search">
+              <div class="serv-type">
                 <ul>
-                  <li class="service-option"><button type="button">Rent</button></li>
-                  <li class="service-option"><button type="button">Buy</button></li>
-                  <li class="service-option"><button type="button">Sell</button></li>
+                  <li class="serv-item"><button aria-label="button" type="button">Rent</button></li>
+                  <li class="serv-item"><button aria-label="button" type="button">Buy</button></li>
+                  <li class="serv-item"><button aria-label="button" type="button">Sell</button></li>
                 </ul>
               </div>
-              <div class="input-section">
-                <div class="input-card">
-                  <label class="input-label" for="country">Country</label>
-                  <div class="input-row">
-                    <select id="country" name="country" class="form-select">
-                      <option value="" disabled selected>Select your country</option>
-                      <option value="France">France</option>
-                      <option value="Germany">Germany</option>
-                      <option value="Italy">Italy</option>
-                      <option value="Spain">Spain</option>
-                      <option value="United Kingdom">United Kingdom</option>
-                      <option value="United States">United States</option>
-                      <option value="Canada">Canada</option>
+              <div class="hero-inputs">
+                <div class="inp-card">
+                  <label class="inp-lebels" for="location">Location</label>
+                  <div class="inp-row">
+                    <select id="location" name="location" class="form-control">
+                      <option value="" disabled selected>
+                        Select your country
+                      </option>
+                      <option value="Afghanistan">Afghanistan</option>
+                      <option value="Åland Islands">Åland Islands</option>
+                      <option value="Albania">Albania</option>
+                      <option value="Algeria">Algeria</option>
+                      <option value="American Samoa">American Samoa</option>
                     </select>
-                    <div class="input-icon">
+                    <div class="inp-icon">
                       <span><i class="fa-solid fa-location-crosshairs"></i></span>
                     </div>
                   </div>
                 </div>
-                <div class="input-card">
-                  <label class="input-label" for="propertyType">Type of Home</label>
-                  <div class="input-row">
-                    <select id="propertyType" name="propertyType" class="form-select">
-                      <option value="" disabled selected>Select type of home</option>
-                      <option value="house">House</option>
-                      <option value="apartment">Apartment</option>
+                <div class="inp-card">
+                  <label class="inp-lebels" for="propertyType">Property Type</label>
+                  <div class="inp-row">
+                    <select
+                      id="propertyType"
+                      name="propertyType"
+                      class="form-control"
+                    >
+                      <option value="" disabled selected>
+                        Select property type
+                      </option>
+                      <option value="single-family-home">Single-Family Home</option>
+                      <option value="condominium">Condominium (Condo)</option>
                       <option value="townhouse">Townhouse</option>
+                      <option value="multi-family-home">Multi-Family Home</option>
+                      <option value="apartment">Apartment</option>
+                      <option value="cooperative">Cooperative (Co-op)</option>
+                      <option value="loft">Loft</option>
                       <option value="villa">Villa</option>
+                      <option value="cottage">Cottage</option>
                     </select>
-                    <div class="input-icon">
+                    <div class="inp-icon">
                       <span><i class="fa-solid fa-chevron-down"></i></span>
                     </div>
                   </div>
                 </div>
-                <div class="input-card">
-                  <label for="priceRange" class="input-label">Price Range</label>
-                  <div class="input-row">
-                    <select id="priceRange" name="priceRange" class="form-select">
+                <div class="inp-card">
+                  <label for="priceRange" class="inp-lebels">Price Range</label>
+                  <div class="inp-row">
+                    <select id="priceRange" name="priceRange" class="form-control">
                       <option value="" disabled selected>Select price range</option>
                       <option value="under-50k">Under $50,000</option>
                       <option value="50k-100k">$50,000 - $100,000</option>
                       <option value="100k-200k">$100,000 - $200,000</option>
-                      <option value="over-200k">Over $200,000</option>
+                      
                     </select>
-                    <div class="input-icon">
+    
+                    <div class="inp-icon">
                       <span><i class="fa-solid fa-tag"></i></span>
                     </div>
                   </div>
                 </div>
-                <div class="submit-button">
-                  <button type="button">
+                <div class="inp-submit">
+                  <button aria-label="button" type="button">
                     <i class="fa-solid fa-magnifying-glass"></i>
                   </button>
                 </div>
@@ -208,10 +221,140 @@
                     </div>
                   </div>
                 </div>
-                <!-- Repeat for other listings -->
+          
+                <div class="listing-card">
+                  <div class="listing-image">
+                    <img src="/assets/images/home/Rectangle 7.jpg" alt="property" />
+                  </div>
+                  <div class="listing-details">
+                    <div class="listing-title">
+                      <h3>103/143 West Street, Crows Nest</h3>
+                    </div>
+                    <div class="listing-features">
+                      <ul class="features-list">
+                        <li class="feature-item">10 Bedrooms</li>
+                        <li class="feature-item">150M</li>
+                        <li class="feature-item">2 Garages</li>
+                      </ul>
+                    </div>
+                    <div class="listing-bottom">
+                      <div class="listing-agent">
+                        <h4>Posted by X Buildery</h4>
+                      </div>
+                      <div class="listing-price">
+                        <span>$45,545</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="listing-card">
+                  <div class="listing-image">
+                    <img src="/assets/images/home/Rectangle 7.jpg" alt="property" />
+                  </div>
+                  <div class="listing-details">
+                    <div class="listing-title">
+                      <h3>103/143 West Street, Crows Nest</h3>
+                    </div>
+                    <div class="listing-features">
+                      <ul class="features-list">
+                        <li class="feature-item">10 Bedrooms</li>
+                        <li class="feature-item">150M</li>
+                        <li class="feature-item">2 Garages</li>
+                      </ul>
+                    </div>
+                    <div class="listing-bottom">
+                      <div class="listing-agent">
+                        <h4>Posted by X Buildery</h4>
+                      </div>
+                      <div class="listing-price">
+                        <span>$45,545</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="listing-card">
+                  <div class="listing-image">
+                    <img src="/assets/images/home/Rectangle 7.jpg" alt="property" />
+                  </div>
+                  <div class="listing-details">
+                    <div class="listing-title">
+                      <h3>103/143 West Street, Crows Nest</h3>
+                    </div>
+                    <div class="listing-features">
+                      <ul class="features-list">
+                        <li class="feature-item">10 Bedrooms</li>
+                        <li class="feature-item">150M</li>
+                        <li class="feature-item">2 Garages</li>
+                      </ul>
+                    </div>
+                    <div class="listing-bottom">
+                      <div class="listing-agent">
+                        <h4>Posted by X Buildery</h4>
+                      </div>
+                      <div class="listing-price">
+                        <span>$45,545</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="listing-card">
+                  <div class="listing-image">
+                    <img src="/assets/images/home/Rectangle 7.jpg" alt="property" />
+                  </div>
+                  <div class="listing-details">
+                    <div class="listing-title">
+                      <h3>103/143 West Street, Crows Nest</h3>
+                    </div>
+                    <div class="listing-features">
+                      <ul class="features-list">
+                        <li class="feature-item">10 Bedrooms</li>
+                        <li class="feature-item">150M</li>
+                        <li class="feature-item">2 Garages</li>
+                      </ul>
+                    </div>
+                    <div class="listing-bottom">
+                      <div class="listing-agent">
+                        <h4>Posted by X Buildery</h4>
+                      </div>
+                      <div class="listing-price">
+                        <span>$45,545</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="listing-card">
+                  <div class="listing-image">
+                    <img src="/assets/images/home/Rectangle 7.jpg" alt="property" />
+                  </div>
+                  <div class="listing-details">
+                    <div class="listing-title">
+                      <h3>103/143 West Street, Crows Nest</h3>
+                    </div>
+                    <div class="listing-features">
+                      <ul class="features-list">
+                        <li class="feature-item">10 Bedrooms</li>
+                        <li class="feature-item">150M</li>
+                        <li class="feature-item">2 Garages</li>
+                      </ul>
+                    </div>
+                    <div class="listing-bottom">
+                      <div class="listing-agent">
+                        <h4>Posted by X Buildery</h4>
+                      </div>
+                      <div class="listing-price">
+                        <span>$45,545</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
+          
           
           <section class="get-in-touch">
             <div class="contact-title">
@@ -245,26 +388,13 @@
             </p>
           </div>
           <div class="res_shocial">
-            <img
-              src="/../assets/images/ressocial/Facebook - Original.png"
-              alt="probleme"
-              title="facebook"
-            />
-            <img
-              src="/../assets/images/ressocial/Instagram - Original.png"
-              alt="probleme"
-              title="Instagram"
-            />
-            <img
-              src="/../assets/images/ressocial/LinkedIn - Original.png"
-              alt="probleme"
-              title="LinkedIn"
-            />
-            <img
-              src="/../assets/images/ressocial/Twitter - Original.png"
-              alt="probleme"
-              title="Twitter"
-            />
+            <ul class="list-shocial">
+                    <li class="li-shocial" ><a  style="color: blue;" aria-label="facebouk" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li  class="li-shocial"  ><a style="color: rgba(35, 26, 150, 0.616);"  aria-label="X" href="https://x.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li  class="li-shocial" ><a style="color: rgb(255, 0, 187);"  aria-label="instagram" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li  class="li-shocial"  ><a style="color: rgba(10, 10, 244, 0.323);"  aria-label="linkedin" href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    
+            </ul>
           </div>
           <p class="right-reserved">© 2024.. All rights reserved.</p>
         </div>
@@ -279,10 +409,11 @@
               <li>Product</li>
               <li>Support</li>
             </ul>
+          </div>
             <div class="list-footer2">
               <h3 class="hading-footer2"><span>Our Company </span></h3>
               <ul>
-                <li><a>About Us</a>F</li>
+                <li><a></a>About UsF</li>
                 <li><a></a>Agents</li>
                 <li>Blog</li>
                 <li>Media</li>
