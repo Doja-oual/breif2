@@ -1,88 +1,313 @@
 <!DOCTYPE html>
- <html lang="en">
- <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Logoipsum</title>
-    <script src="https://kit.fontawesome.com/1c3d6e3766.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-<link rel="stylesheet" type="images" href="assets/logo/vector.css">
- </head>
- <body>
+    <script
+      src="https://kit.fontawesome.com/1c3d6e3766.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="images" href="assets/logo/vector.css" />
+  </head>
+  <body>
     <!--header :home...-->
-    <header  class="header-top">
-        <div class="header-area">
-            <div class="logo-nom">
-            <img src="/assets/logo/Vector.jpg" alt="logo de site_web">
-            <a href="#" >Logoipsum<br>.com</a>
+    <header class="header-top">
+      <div class="header-area">
+        <div class="logo-nom">
+          <img src="/assets/logo/Vector.jpg" alt="logo de site_web" />
+          <a href="#">Logoipsum<span>.com</span>
         </div>
 
-            <div class="div-list-header">
-                <ul class="list-header">
-                    <li><a class="action" aria-label="home" href="index.html">HOME</a></li>
-                    <li><a class="action" aria-label="proprties" href="proprtie.html">PROPERTIES</a></li>
-                    <li><a class="active" aria-label="blogs" href="blog.html">BLOG</a></li>
-                    <li><a class="action" aria-label="contact" href="contact.html">CONTACT</a></li>
-                    <li class="button-login"><a href="#">LOG IN</a></li>
+        <div class="div-list-header">
+          <ul class="list-header">
+            <li>
+              <a class="action" aria-label="home" href="index.html">HOME</a>
+            </li>
+            <li>
+              <a class="action" aria-label="proprties" href="proprtie.html"
+                >PROPERTIES</a
+              >
+            </li>
+            <li>
+              <a class="active" aria-label="blogs" href="blog.html">BLOG</a>
+            </li>
+            <li>
+              <a class="action" aria-label="contact" href="contact.html"
+                >CONTACT</a
+              >
+            </li>
+            <li class="button-login"><a href="#">LOG IN</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--fin de header-->
+
+    <!-- main -->
+
+    <main>
+        <section class="main-section">
+            <div class="main-title">
+              <h1>Easy way to find your ideal home</h1>
+            </div>
+            <div class="main-description">
+              <p>
+                We offer a full service for buying, selling, or renting homes.
+              </p>
+            </div>
+            <div class="search-section">
+              <div class="service-options">
+                <ul>
+                  <li class="service-option"><button type="button">Rent</button></li>
+                  <li class="service-option"><button type="button">Buy</button></li>
+                  <li class="service-option"><button type="button">Sell</button></li>
                 </ul>
-            </div>
-        </div>
-    </header> <!--fin de header-->
-    <footer class="footer">
-        <div class="footer-1">
-            <!--logo et nome -->
-            <div class="logo-nom">
-                <img src="/assets/logo/Vector.jpg" alt="logo de site_web">
-            <a href="#" >Logoipsum<br>.com</a>
-            </div> 
-            <div class="paragraph">
-                <p class="paragraph-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="res_shocial">
-                <img src="/../assets/images/ressocial/Facebook - Original.png" alt="probleme" title="facebook">
-                <img src="/../assets/images/ressocial/Instagram - Original.png" alt="probleme" title="Instagram">
-                <img src="/../assets/images/ressocial/LinkedIn - Original.png" alt="probleme" title="LinkedIn">
-                <img src="/../assets/images/ressocial/Twitter - Original.png" alt="probleme" title="Twitter">
-             </div>
-            <div class="list-footer">
-                <div class="list-footer1">
-                    <h3 class="hading-footer1"><span>Take a tour </span></h3>
-                    <ul>
-                        <li><a>Features</a>F</li>
-                        <li><a></a>Partners</li>
-                        <li>Pricing</li>
-                        <li>Product</li>
-                        <li>Support</li>
-                    </ul>
-                    <div class="list-footer2">
-                        <h3 class="hading-footer2"><span>Our Company </span></h3>
-                        <ul>
-                            <li><a>About Us</a>F</li>
-                            <li><a></a>Agents</li>
-                            <li>Blog</li>
-                            <li>Media</li>
-                            <li>Contact Us</li>
-                        </ul>
-
+              </div>
+              <div class="input-section">
+                <div class="input-card">
+                  <label class="input-label" for="country">Country</label>
+                  <div class="input-row">
+                    <select id="country" name="country" class="form-select">
+                      <option value="" disabled selected>Select your country</option>
+                      <option value="France">France</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Italy">Italy</option>
+                      <option value="Spain">Spain</option>
+                      <option value="United Kingdom">United Kingdom</option>
+                      <option value="United States">United States</option>
+                      <option value="Canada">Canada</option>
+                    </select>
+                    <div class="input-icon">
+                      <span><i class="fa-solid fa-location-crosshairs"></i></span>
                     </div>
-                    <div class="subscribe">
-                        <h3 class="subscribe">Subscribe</h3>
-                        <p class="paragraph-1">Subscribe to get latest property, blog news from us</p>
-                        <div class="subscription-input-group">
-							<form action="#">
-								<input type="email" class="subscription-input-form" placeholder="email address">
-								<i class="fa-solid fa-arrow-right"></i>
-							</form>
-						</div>
-                    </div>
+                  </div>
                 </div>
+                <div class="input-card">
+                  <label class="input-label" for="propertyType">Type of Home</label>
+                  <div class="input-row">
+                    <select id="propertyType" name="propertyType" class="form-select">
+                      <option value="" disabled selected>Select type of home</option>
+                      <option value="house">House</option>
+                      <option value="apartment">Apartment</option>
+                      <option value="townhouse">Townhouse</option>
+                      <option value="villa">Villa</option>
+                    </select>
+                    <div class="input-icon">
+                      <span><i class="fa-solid fa-chevron-down"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="input-card">
+                  <label for="priceRange" class="input-label">Price Range</label>
+                  <div class="input-row">
+                    <select id="priceRange" name="priceRange" class="form-select">
+                      <option value="" disabled selected>Select price range</option>
+                      <option value="under-50k">Under $50,000</option>
+                      <option value="50k-100k">$50,000 - $100,000</option>
+                      <option value="100k-200k">$100,000 - $200,000</option>
+                      <option value="over-200k">Over $200,000</option>
+                    </select>
+                    <div class="input-icon">
+                      <span><i class="fa-solid fa-tag"></i></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="submit-button">
+                  <button type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
             </div>
-
+          </section>
+          
+          <section class="available-locations">
+            <div class="location-content">
+              <div class="location-heading">
+                <h1>We are available in many popular countries</h1>
+              </div>
+              <div class="location-cards">
+                <div class="location-card">
+                  <div class="card-image">
+                    <img src="/assets/images/home/Rectangle 9.jpg" alt="USA" />
+                  </div>
+                  <div class="card-title">
+                    <h3>America</h3>
+                  </div>
+                </div>
+                <div class="location-card">
+                  <div class="card-image">
+                    <img src="/assets/images/home/Rectangle 10.jpg" alt="Spain" />
+                  </div>
+                  <div class="card-title">
+                    <h3>Spain</h3>
+                  </div>
+                </div>
+                <div class="location-card">
+                  <div class="card-image">
+                    <img src="/assets/images/home/Rectangle 11.jpg" alt="UK" />
+                  </div>
+                  <div class="card-title">
+                    <h3>London</h3>
+                  </div>
+                </div>
+                <div class="location-card">
+                  <div class="card-image">
+                    <img src="/assets/images/home/Rectangle 12.jpg" alt="France" />
+                  </div>
+                  <div class="card-title">
+                    <h3>France</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          <section class="new-listings">
+            <div class="listing-content">
+              <div class="listing-heading">
+                <div class="listing-left">
+                  <h1>Recently Added</h1>
+                </div>
+                <div class="listing-right">
+                  <a href="#" target="_blank" rel="noopener noreferrer">See All</a>
+                </div>
+              </div>
+              <div class="listing-cards">
+                <div class="listing-card">
+                  <div class="listing-image">
+                    <img src="/assets/images/home/Rectangle 7.jpg" alt="property" />
+                  </div>
+                  <div class="listing-details">
+                    <div class="listing-title">
+                      <h3>103/143 West Street, Crows Nest</h3>
+                    </div>
+                    <div class="listing-features">
+                      <ul class="features-list">
+                        <li class="feature-item">10 Bedrooms</li>
+                        <li class="feature-item">150M</li>
+                        <li class="feature-item">2 Garages</li>
+                      </ul>
+                    </div>
+                    <div class="listing-bottom">
+                      <div class="listing-agent">
+                        <h4>Posted by X Buildery</h4>
+                      </div>
+                      <div class="listing-price">
+                        <span>$45,545</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Repeat for other listings -->
+              </div>
+            </div>
+          </section>
+          
+          <section class="get-in-touch">
+            <div class="contact-title">
+              <h1>Find Your Dream Home</h1>
+            </div>
+            <div class="contact-description">
+              <p>
+                We provide complete services for buying, selling, or renting homes.
+              </p>
+            </div>
+            <div class="contact-button">
+              <a href="#" target="_blank" rel="noopener noreferrer">Contact Us</a>
+            </div>
+          </section>
+          
+    </main>
+    <footer class="footer">
+      <div class="footer-1">
+        <div class="part1-footer">
+          <!--logo et nome -->
+          <div class="logo-nom">
+            <img src="/assets/logo/Vector.jpg" alt="logo de site_web" />
+            <a href="#">Logoipsum<br />.com</a>
+          </div>
+          <div class="paragraph">
+            <p class="paragraph-1">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <div class="res_shocial">
+            <img
+              src="/../assets/images/ressocial/Facebook - Original.png"
+              alt="probleme"
+              title="facebook"
+            />
+            <img
+              src="/../assets/images/ressocial/Instagram - Original.png"
+              alt="probleme"
+              title="Instagram"
+            />
+            <img
+              src="/../assets/images/ressocial/LinkedIn - Original.png"
+              alt="probleme"
+              title="LinkedIn"
+            />
+            <img
+              src="/../assets/images/ressocial/Twitter - Original.png"
+              alt="probleme"
+              title="Twitter"
+            />
+          </div>
+          <p class="right-reserved">© 2024.. All rights reserved.</p>
         </div>
 
+        <div class="part2-footer">
+          <div class="list-footer1">
+            <h3 class="hading-footer1"><span>Take a tour </span></h3>
+            <ul>
+              <li><a>Features</a>F</li>
+              <li><a></a>Partners</li>
+              <li>Pricing</li>
+              <li>Product</li>
+              <li>Support</li>
+            </ul>
+            <div class="list-footer2">
+              <h3 class="hading-footer2"><span>Our Company </span></h3>
+              <ul>
+                <li><a>About Us</a>F</li>
+                <li><a></a>Agents</li>
+                <li>Blog</li>
+                <li>Media</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div class="subscribe">
+              <h3 class="subscribe">Subscribe</h3>
+              <p class="paragraph-1">
+                Subscribe to get latest property, blog news from us
+              </p>
+              <div class="subscription-input-group">
+                <form action="#">
+                  <input
+                    type="email"
+                    class="subscription-input-form"
+                    placeholder="email address"
+                  />
+                  <i class="fa-solid fa-arrow-right"></i>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-    
- </body>
- </html>
+  </body>
+</html>
