@@ -27,14 +27,14 @@ ListGo est une plateforme web intuitive conçue pour aider les utilisateurs à t
 
 ## *Pour commencer*
 
-Pour commencer avec ListGo, clonez simplement le dépôt et ouvrez le fichier index.html dans votre navigateur. Assurez-vous d'avoir une connaissance de base du HTML, CSS et JavaScript pour personnaliser les fonctionnalités.
+Pour commencer avec ListGo, clonez simplement le dépôt et ouvrez le fichier index.html dans votre navigateur. Assurez-vous d'avoir une connaissance de base du HTML, CSS pour personnaliser les fonctionnalités.
 
 ---
 
 ## *Exigences*
 
-- Un navigateur web qui prend en charge HTML5, CSS3 et JavaScript.
-- Une compréhension de base du développement web pour personnaliser les fonctionnalités.
+- Un navigateur web qui prend en charge HTML5, CSS3 
+
 
 ---
 
@@ -42,5 +42,5 @@ Pour commencer avec ListGo, clonez simplement le dépôt et ouvrez le fichier in
 
 1. Cloner le dépôt :
    bash
-   git clone https://github.com/aliyara290/ListGo.git
+   git clone https://github.com/Doja-oual/ListGo.git
    
