@@ -32,31 +32,61 @@
         </div>
     </header> <!--fin de header-->
 <!--debu de section contact-->
+<section class="body-contact">
 <div class="container">
-    <form action="contact.html">
+    <div class="text">Contact Us</div>
+    <form action="contact.html" >
+      
+        <div class="form-row">
+            <div class="input-data">
   
       <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
+      <input type="text" class="fname" name="firstname" ">
+    </div>
+    <div class="input-data">
+
       <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      <label for="email">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
+      <input type="text" class="lname" name="lastname" >
+      </div>
+      <div class="form-row textarea">
+
+        <label for="lemail">Email</label>
+        <input type="text" class="lemail" name="email" >
+        </div>
+      <div class="form-row country">
       <label for="country">Country</label>
-      <select id="country" name="country">
+      <select class="country" name="country">
         <option value="australia">youssofia</option>
         <option value="canada">azilal</option>
         <option value="usa">agadir</option>
-      </select>
-  
+        <option value="casablanca">Casablanca</option>
+       
+
+        <option value="marrakech">Marrakech</option>
+
+        <option value="fès">Fès</option>
+
+        <option value="tanger">Tanger</option>
+<option value="agadir">Agadir</option>
+<option value="essaouira">Essaouira</option>
+<option value="rabat">Rabat</option>
+<option value="oukaimeden">Oukaimeden</option>
+<option value="taza">Taza</option>
+<option value="meknès">Meknès</option>
+</select>
+</div>
+ 
+<div class="form-row subject">
       <label for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-  
+      <textarea class="subject" name="subject" style="height:200px"></textarea>
+  </div>
+  <div class="form-row submit-btn">
       <input type="submit" value="Submit">
-  
+      </div>
+    </div>
     </form>
   </div>
+</section>
 <!--fin de section contact-->
 
     <!--debu de footer-->
@@ -70,33 +100,20 @@
             </div>
             <div class="paragraph">
               <p class="paragraph-1">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,<br> sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.<br> Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco<br> laboris
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
             <div class="res_shocial">
-              <img
-                src="/../assets/images/ressocial/Facebook - Original.png"
-                alt="probleme"
-                title="facebook"
-              />
-              <img
-                src="/../assets/images/ressocial/Instagram - Original.png"
-                alt="probleme"
-                title="Instagram"
-              />
-              <img
-                src="/../assets/images/ressocial/LinkedIn - Original.png"
-                alt="probleme"
-                title="LinkedIn"
-              />
-              <img
-                src="/../assets/images/ressocial/Twitter - Original.png"
-                alt="probleme"
-                title="Twitter"
-              />
+              <ul class="list-shocial">
+                      <li class="li-shocial" ><a  style="color: blue;" aria-label="facebouk" href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                      <li  class="li-shocial"  ><a style="color: rgba(35, 26, 150, 0.616);"  aria-label="X" href="https://x.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li  class="li-shocial" ><a style="color: rgb(255, 0, 187);"  aria-label="instagram" href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+                      <li  class="li-shocial"  ><a style="color: rgba(5, 5, 248, 0.879);"  aria-label="linkedin" href="https://fr.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                      
+              </ul>
             </div>
             <p class="right-reserved">© 2024.. All rights reserved.</p>
           </div>
