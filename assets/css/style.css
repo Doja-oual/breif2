@@ -666,12 +666,7 @@ input[type="submit"]:hover {
     background-color: #0056b3;
 }
 /*  debu blogs*/
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
+
 
 .blog {
   padding: 40px 0;
@@ -723,8 +718,8 @@ body {
 }
 
 .single-blog-text p {
-  font-size: 1em;
-  color: #333;
+  font-size: 2;
+  color: #0b0b0b;
   margin: 0;
 }
 
@@ -824,7 +819,7 @@ body {
     justify-content: space-between;
   }
   .part1-footer {
-    width: 50%;
+    width: 30%;
   }
   
   .logo-nom {
