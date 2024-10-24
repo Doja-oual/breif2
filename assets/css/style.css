@@ -267,7 +267,7 @@ html {
     overflow: hidden;
     border-radius: 3rem;
     position: relative;
-    transition: transform 0.4s ease;
+    transition: transform 0.4s ;
     
     box-shadow: 0 0 1rem 0.5rem #0000001b;
   }
